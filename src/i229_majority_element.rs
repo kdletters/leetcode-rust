@@ -33,7 +33,7 @@ pub fn majority_element(mut nums: Vec<i32>) -> Vec<i32> {
 
 /// 摩尔投票算法
 /// 三个数不同则抵消，直至最后剩下2个或者1个数，然后检测他的数量是否符合条件
-pub fn majority_element_1(mut nums: Vec<i32>) -> Vec<i32> {
+pub fn majority_element_1(nums: Vec<i32>) -> Vec<i32> {
     let mut e_1 = i32::MIN;
     let mut v_1 = 0;
     let mut e_2 = i32::MAX;
