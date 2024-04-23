@@ -1,3 +1,4 @@
+pub mod i26_remove_duplicates;
 pub mod i88_merge;
 pub mod i169_majority_element;
 pub mod i217_contains_duplicate;
