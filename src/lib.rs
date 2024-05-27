@@ -9,3 +9,7 @@ pub mod i268_missing_number;
 pub mod i377_combination_sum4;
 pub mod i1052_max_satisfied;
 pub mod i1146_snapshot_array;
+pub mod i704_search;
+pub mod i35_search_insert;
+pub mod i744_next_greatest_letter;
+pub mod i1351_count_negatives;

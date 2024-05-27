@@ -1,0 +1,35 @@
+/*!
+1351. 统计有序矩阵中的负数
+ */
+
+pub struct Solution;
+
+impl Solution {
+    pub fn count_negatives(grid: Vec<Vec<i32>>) -> i32 {
+        let mut count = 0;
+        for row in grid.iter() {
+            if row[0] < 0 {
+                count += row.len() as i32;
+            } else {
+                for &num in row.iter() {
+                    if num < 0 {
+                        count += 1;
+                    }
+                }
+            }
+        }
+
+        count
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_count_negatives() {
+        assert_eq!(Solution::count_negatives(vec![vec![4, 3, 2, -1], vec![3, 2, 1, -1], vec![1, 1, -1, -2], vec![-1, -1, -2, -3]]), 8);
+        assert_eq!(Solution::count_negatives(vec![vec![3, 2], vec![1, 0]]), 0);
+    }
+}
