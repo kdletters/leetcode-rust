@@ -13,3 +13,4 @@ pub mod i704_search;
 pub mod i35_search_insert;
 pub mod i744_next_greatest_letter;
 pub mod i1351_count_negatives;
+pub mod i34_search_range;
