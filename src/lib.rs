@@ -8,6 +8,7 @@ pub mod i229_majority_element;
 pub mod i268_missing_number;
 pub mod i377_combination_sum4;
 pub mod i1052_max_satisfied;
+pub mod i2739_distance_traveled;
 pub mod i1146_snapshot_array;
 pub mod i704_search;
 pub mod i35_search_insert;
